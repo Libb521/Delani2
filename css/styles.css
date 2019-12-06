@@ -1,0 +1,68 @@
+.intro{
+    background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Week3-IP/Delani studios/img/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.intro h1{
+    text-align: center;
+    color: white; 
+}
+.intro p{
+    color: white;
+    font-size: 15px;
+}
+/* .intro img1{
+    padding-bottom: 50px;
+}
+.intro img2{
+    padding-top: 150;
+} */
+.info{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.info h1{
+    font-weight: bolder;
+}
+.info p{
+    font-size: large;
+}
+.services{
+    background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Week3-IP/Delani studios/img/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    color: white;
+    padding-bottom: 90px;
+}
+.serv{
+    padding-top: 130px;
+}
+.serv p{
+    font-weight: bold;
+}
+.row{
+    columns: 3;
+    align-self: auto;
+}
+.des{
+    text-align: center;
+    /* display: none; */
+}
+.des p{
+    display: none;
+}
+.dev p{
+    display: none;
+}
+.prod p{
+    display: none;
+} 
+.h2{
+    text-align: center;
+}
