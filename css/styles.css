@@ -70,7 +70,6 @@
     box-sizing: border-box;
     height: auto;
   }
-  /* Float four columns side by side */
 .col1 {
     float: left;
     width: 25%;
@@ -81,3 +80,7 @@
     width: 25%;
     padding: 0 10px;
 }
+  .row1 {margin: 0 150px;}
+  .row2{
+      margin: 0 150px;
+  }
