@@ -1,4 +1,4 @@
-.intro{
+.intro {
     background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Week3-IP/Delani studios/img/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,100 +7,126 @@
     padding-bottom: 50px;
     padding-top: 80px;
 }
-.intro h1{
+
+.intro h1 {
     text-align: center;
-    color: white; 
+    color: white;
 }
-.intro p{
+
+.intro p {
     color: white;
     font-size: 15px;
 }
+
 /* .intro img1{
     padding-bottom: 50px;
 }
 .intro img2{
     padding-top: 150;
 } */
-.info{
+.info {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.info h1{
+
+.info h1 {
     font-weight: bolder;
 }
-.info p{
+
+.info p {
     font-size: large;
 }
-.services{
+
+.services {
     background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Week3-IP/Delani studios/img/s_image.jpg");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     text-align: center;
     color: white;
     padding-bottom: 90px;
 }
-.serv{
+
+.serv {
     padding-top: 130px;
 }
-.serv p{
+
+.serv p {
     font-weight: bold;
 }
-.row{
+
+.row {
     columns: 3;
     align-self: auto;
 }
-.des{
+
+.des {
     text-align: center;
     /* display: none; */
 }
-.des p{
+
+.des p {
     display: none;
 }
-.dev p{
+
+.dev p {
     display: none;
 }
-.prod p{
+
+.prod p {
     display: none;
-} 
-.h2{
+}
+
+.h2 {
     text-align: center;
 }
+
 * {
     box-sizing: border-box;
     height: auto;
-  }
+}
+
 .col1 {
     float: left;
     width: 25%;
     padding: 0 10px;
-  }
-  .col2{
+}
+
+.col2 {
     float: left;
     width: 25%;
     padding: 0 10px;
 }
-  .row1 {margin: 0 150px;}
-  .row2{
-      margin: 0 150px;
-  }
-   .row1:after {
+
+.row1 {
+    margin: 0 150px;
+}
+
+.row2 {
+    margin: 0 150px;
+}
+
+.row1:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
+
 @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
-      height: 25%;
-      display: block;
-      margin-bottom: 20px;
+        width: 100%;
+        height: 25%;
+        display: block;
+        margin-bottom: 20px;
     }
-  }
-  .wrapper{
-    background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Delani2/Delani-studios.github.io/Delani studios/img/c_image.jpg");
+}
 
-  }
-.form{
+.wrapper {
+    background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Delani2/Delani-studios.github.io/Delani studios/img/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 
 }
+
+.form {}
