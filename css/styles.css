@@ -84,3 +84,8 @@
   .row2{
       margin: 0 150px;
   }
+   .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
