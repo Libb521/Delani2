@@ -1,4 +1,6 @@
-# Delani Studio
+# Elizabeth Otieno
+#### DELANI STUDIO, 08/12/2019
+#### By **Elizabeth Otieno**
 
 [Click here to visit the page]()
 ## Description.
@@ -39,3 +41,6 @@ Still working on perfecting the mailchimp API
 For collaborations, additions and suggestions on Delani studio, kindly reach me on [Email](eotieno39@yahoo.com).
 
 ## License
+- Licensed under the  [MIT license](LICENSE).
+
+Copyright (c) 2019 **Elizabeth Ayiemba Otieno**
