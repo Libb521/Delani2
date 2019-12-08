@@ -17,6 +17,13 @@ $(document).ready(function () {
         $('.prod img').toggle();
     });
 
+    //creating a hover effect for the portfolio images
+    $('.card').hover(function(){
+        $('.porttext',this).slideToggle('slow');
+     }, function(){
+        $('.porttext',this).slideToggle('slow');
+     });
+
 
     //Form Validation
     $("form#form").on('submit',function(event){
@@ -36,9 +43,4 @@ $(document).ready(function () {
 
 });
 
-// $('.card').hover(function(){
-//     $('.porttext',this).slideToggle('slow');
-//  }, function(){
-//     $('.porttext',this).slideToggle('slow');
-//  });
 
