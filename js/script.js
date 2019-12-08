@@ -18,3 +18,9 @@ $(document).ready(function () {
     });
 });
 
+// $('.card').hover(function(){
+//     $('.porttext',this).slideToggle('slow');
+//  }, function(){
+//     $('.porttext',this).slideToggle('slow');
+//  });
+
