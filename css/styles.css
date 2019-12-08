@@ -121,12 +121,78 @@
     }
 }
 
-.wrapper{
+.wrapper {
     background-image: url("/home/moringaschool/Desktop/My-projects/Week3/Delani2/Delani-studios.github.io/Delani studios/img/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    /* text-align: center;
+    margin: 100px auto 0;
+    margin-top: 350px;
+    box-sizing: border-box; */
 
 }
+.wrapper h1{
+    position: relative;
+    top: 30px;
+}
+.text{
+    margin-bottom: 20px;
+}
+.form-control{
+    background-color: black;
+    color: white;
+}
+.input{
+    margin-top: 30px;
+}
+.name{
+    margin-right: 5px;
+}
+.email{
+    margin-right: 5px;
+}
+input.error{
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
 
-.form {}
+/* .form {
+    padding: 25px;
+    user-select: none;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.top-form {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+}
+
+.bottom-form {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+}
+.form input[type="textarea"]{
+    padding: 15px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.card .porttext {
+    display: none;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+} */
