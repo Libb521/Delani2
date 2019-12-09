@@ -20,8 +20,6 @@ $(document).ready(function () {
     //creating a hover effect for the portfolio images
     $('.card').hover(function(){
         $('.porttext',this).slideToggle('slow');
-     }, function(){
-        $('.porttext',this).slideToggle('slow');
      });
 
 
