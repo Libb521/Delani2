@@ -18,27 +18,24 @@ $(document).ready(function () {
     });
 
     //creating a hover effect for the portfolio images
-    $('.card').hover(function(){
-        $('.porttext',this).slideToggle('slow');
-     });
+    $('.card').hover(function () {
+        $('.porttext', this).slideToggle('slow');
+    });
 
 
     //Form Validation
-    $("form#form").on('submit',function(event){
+    $("form#form").on('submit', function (event) {
         event.preventDefault();
         let name = $("input#name").val();
         let email = $("input#email").val();
         let message = $("textarea#message").val();
 
-        if ($("input#name").val() && $("input#email").val()){
-            alert ("Hey " + name + ", Your message has been duly received...cheers");
-        }
-        else {
+        if ($("input#name").val() && $("input#email").val()) {
+            alert("Hey " + name + ", Your message has been duly received...cheers");
+        } else {
             alert("Kindly provide your valid name and email!");
         }
 
     });
 
 });
-
-
