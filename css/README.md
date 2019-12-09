@@ -2,7 +2,7 @@
 #### DELANI STUDIO, 08/12/2019
 #### By **Elizabeth Otieno**
 
-[Click here to visit the page]()
+[Click here to visit the page](https://libb521.github.io/Delani2.github.io/)
 ## Description.
 This project is meant to check on the mastery of the few elements that we have learned so far and putting them in practice. The client is able to write to us and get a response all thanks to what we have learned.
 
