@@ -33,10 +33,10 @@ $(document).ready(function () {
         let message = $("textarea#message").val();
 
         if ($("input#name").val() && $("input#email").val()){
-            alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly...cheers");
+            alert ("Hey " + name + ", Your message has been duly received...cheers");
         }
         else {
-            alert("Please provide your correct name and email!");
+            alert("Kindly provide your valid name and email!");
         }
 
     });
