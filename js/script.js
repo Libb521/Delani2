@@ -31,9 +31,11 @@ $(document).ready(function () {
         let message = $("textarea#message").val();
 
         if ($("input#name").val() && $("input#email").val()) {
-            alert("Hey " + name + ", Your message has been duly received...cheers");
+            alert("Hey " + name + ", Your message has been duly received...cheers")
+            event.allowDefault();
         } else {
-            alert("Kindly provide your valid name and email!");
+            alert("Kindly provide your valid name and email!")
+            event.preventDefault();
         }
 
     });
